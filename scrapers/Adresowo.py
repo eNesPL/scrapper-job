@@ -20,7 +20,7 @@ class AdresowoScraper(BaseScraper):
         self.base_url = "https://adresowo.pl"
         self.MAX_PAGES = 5  # Maksymalna liczba stron do przeszukania
         # Using the hardcoded URL as requested for fetching listings
-        self.hardcoded_listings_url = "https://adresowo.pl/f/mieszkania/gliwice/a25_ff0f1p2p3_p-30"
+        self.hardcoded_listings_url = "https://adresowo.pl/f/mieszkania/zabrze/a29-37"
 
     def fetch_listings_page(self, search_criteria, page=1):
         """
