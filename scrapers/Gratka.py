@@ -27,7 +27,7 @@ class GratkaScraper(BaseScraper):
         :param page: int, page number to fetch (default: 1)
         :return: HTML content (str) or None.
         """
-        example_url = f"https://gratka.pl/nieruchomosci/mieszkania/3-pokojowe/gliwice?cena-calkowita:max=300000&location%5Bmap%5D=1&location%5Bmap_bounds%5D=50.3752324,18.7546442:50.2272469,18.5445885&ogloszenie-zawiera%5B0%5D=zdjecie&ogloszenie-zawiera%5B1%5D=cena&powierzchnia-w-m2:min=25&sort=relevance&page={page}"
+        example_url = f"https://gratka.pl/nieruchomosci/mieszkania/2-pokojowe/zabrze?powierzchnia-w-m2:max=40&powierzchnia-w-m2:min=20&page={page}"
 
         print(f"[{self.site_name}] Fetching listings page {page} using URL: {example_url} (Criteria: {search_criteria})")
 
