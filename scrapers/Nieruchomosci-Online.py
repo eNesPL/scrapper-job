@@ -25,7 +25,7 @@ class NieruchomosciOnlineScraper(BaseScraper):
         :return: HTML content (str) or None.
         """
         # Using the provided example URL
-        example_url = f"https://www.nieruchomosci-online.pl/szukaj.html?3,mieszkanie,sprzedaz,,Gliwice:14130,,,,-300000,25,,,,,,2,{page}"
+        example_url = f"https://zabrze.nieruchomosci-online.pl/szukaj.html?3,mieszkanie,sprzedaz,,Zabrze:9298,,,,,30-40,,,,,,2-2,{page}"
         
         print(f"[{self.site_name}] Fetching listings page using URL: {example_url} (Criteria: {search_criteria})")
         
