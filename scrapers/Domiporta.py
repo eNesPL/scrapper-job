@@ -31,7 +31,7 @@ class DomiportaScraper(BaseScraper):
         :return: HTML content (str) or None.
         """
         self.base_url = "https://www.domiporta.pl"
-        url = "https://www.domiporta.pl/mieszkanie/sprzedam/slaskie/gliwice?Surface.From=25&Price.To=300000&Rooms.From=2&Pietro.To=1"
+        url = "https://www.domiporta.pl/mieszkanie/sprzedam/slaskie/zabrze?Surface.From=25&Surface.To=40&Rooms.From=2&Rooms.To=2"
         print(f"[{self.site_name}] Fetching listings page: {url}")
         
         try:
