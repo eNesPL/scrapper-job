@@ -31,7 +31,7 @@ class OtodomScraper(BaseScraper):
         """
         try:
             url = (
-                'https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/slaskie/gliwice/gliwice/gliwice?limit=72&ownerTypeSingleSelect=ALL&priceMax=300000&areaMin=35&buildYearMin=1950&roomsNumber=%5BTWO%2CTHREE%5D&floors=%5BGROUND%2CFIRST%5D&by=DEFAULT&direction=DESC&viewType=listing'
+                'https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie,2-pokoje/slaskie/zabrze/zabrze/zabrze?limit=36&ownerTypeSingleSelect=ALL&areaMin=29&areaMax=30&by=DEFAULT&direction=DESC'
             )
             
             # Use FlareSolverr to bypass anti-bot protection
