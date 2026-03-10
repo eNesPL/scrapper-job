@@ -29,12 +29,11 @@ class OLXScraper(BaseScraper):
         :return: HTML content (str) or None.
         """
         print(f"[{self.site_name}] Fetching page {page} with criteria: {search_criteria}")
-        base_url = "https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/gliwice/"
+        base_url = "https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/zabrze/"
+    
         params = {
-            'search[filter_float_price:to]': 300000,
             'search[filter_float_m:from]': 25,
-            'search[filter_enum_rooms][0]': 'two',
-            'search[filter_enum_rooms][1]': 'three',
+            'search[filter_float_m:to]': 40,
             'page': page
         }
         
