@@ -29,7 +29,7 @@ class MorizonScraper(BaseScraper):
         :return: HTML content (str) or None.
         """
         # Using the provided example URL
-        example_url = f"https://www.morizon.pl/mieszkania/do-300000/gliwice/?page={page}&ps%5Bliving_area_from%5D=25&ps%5Blocation%5D%5Bmap%5D=1&ps%5Blocation%5D%5Bmap_bounds%5D=50.3752324,18.7546442:50.2272469,18.5445885&ps%5Bnumber_of_rooms_from%5D=2&ps%5Bnumber_of_rooms_to%5D=3"
+        example_url = f"https://www.morizon.pl/mieszkania/2-pokojowe/zabrze/?ps%5Bliving_area_from%5D=30&ps%5Bliving_area_to%5D=40"
         
         print(f"[{self.site_name}] Fetching listings page using URL: {example_url} (Criteria: {search_criteria})")
         
