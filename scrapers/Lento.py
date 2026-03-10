@@ -29,7 +29,7 @@ class LentoScraper(BaseScraper):
         :return: HTML content (str) or None.
         """
         # Using the provided example URL with pagination
-        example_url = f"https://gliwice.lento.pl/nieruchomosci/mieszkania/sprzedaz.html?price_from=50000&price_to=300000&atr_1_from=20&atr_2_in%5B0%5D=2&atr_2_in%5B1%5D=3&page={page}"
+        example_url = f"https://zabrze.lento.pl/nieruchomosci/mieszkania/sprzedaz.html?atr_1_from=30&atr_1_to=40&atr_2_in%5B0%5D=2&page={page}"
         
         print(f"[{self.site_name}] Fetching listings page {page} using URL: {example_url} (Criteria: {search_criteria})")
         
